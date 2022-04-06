@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>CloudfyEcommerce_Cucumber</groupId>
+  <artifactId>CloudfyEcommerce_Cucumber</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>CloudfyEcommerce_Cucumber</name>
+  
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
+					<includes>
+						<include>**/CloudfyRunner.java</include>
+					</includes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>buildnumber-maven-plugin</artifactId>
+				<version>1.4</version>
+				<configuration>
+					<revisionOnScmFailure>no.scm.config.in.pom</revisionOnScmFailure>
+					<doCheck>false</doCheck>
+					<doUpdate>false</doUpdate>
+					<timestampFormat>{0,date,yyyy-MM-dd'T'HH:mm:ss*SSSZZZZ}</timestampFormat>
+				</configuration>
+				<executions>
+					<execution>
+						<id>create-timestamp-id</id>
+						<phase>test</phase>
+						<goals>
+							<goal>create-timestamp</goal>
+						</goals>
+						<configuration>
+							<timestampFormat>yyyy-MM-dd</timestampFormat>
+							<timestampPropertyName>myBuildNumberVariable</timestampPropertyName>
+							<!-- formats the timestamp all together like 2016-04-04 14:17:05.123 
+								and puts it in the ${myBuildNumberVariable} buildProperty -->
+						</configuration>
+						
+					</execution>
+					<execution>
+						<id>create-timestamp-year-id</id>
+						<phase>test</phase>
+						<goals>
+							<goal>create-timestamp</goal>
+						</goals>
+						<configuration>
+							<timestampFormat>yyyy</timestampFormat>
+							<timestampPropertyName>CurrentYear</timestampPropertyName>
+							<!-- formats the timestamp all together like 2021-07-04 14:17:05.123 
+								and puts it in the ${myBuildNumberVariable} buildProperty -->
+						</configuration>
+						
+					</execution>
+					<execution>
+						<id>create-timestamp-month-id</id>
+						<phase>test</phase>
+						<goals>
+							<goal>create-timestamp</goal>
+						</goals>
+						<configuration>
+							<timestampFormat>MM</timestampFormat>
+							<timestampPropertyName>CurrentMonth</timestampPropertyName>
+							<!-- formats the timestamp all together like 2021-07-04 14:17:05.123 
+								and puts it in the ${myBuildNumberVariable} buildProperty -->
+						</configuration>
+						
+					</execution>
+							<execution>
+						<id>create-timestamp-date-id</id>
+						<phase>test</phase>
+						<goals>
+							<goal>create-timestamp</goal>
+						</goals>
+						<configuration>
+							<timestampFormat>dd</timestampFormat>
+							<timestampPropertyName>CurrentDate</timestampPropertyName>
+							<!-- formats the timestamp all together like 2021-07-04 14:17:05.123 
+								and puts it in the ${myBuildNumberVariable} buildProperty -->
+						</configuration>
+						
+					</execution>
+					<execution>
+						<id>create-timestamp-time-id</id>
+						<phase>test</phase>
+						<goals>
+							<goal>create-timestamp</goal>
+						</goals>
+						<configuration>
+							<timestampFormat>HHmmss</timestampFormat>
+							<timestampPropertyName>CurrentTime</timestampPropertyName>
+							<!-- formats the timestamp all together like 2021-07-04 14:17:05.123 
+								and puts it in the ${myBuildNumberVariable} buildProperty -->
+						</configuration>
+						
+					</execution>
+			
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>net.masterthought</groupId>
+				<artifactId>maven-cucumber-reporting</artifactId>
+				<version>2.8.0</version>
+				<executions>
+					<execution>
+						<id>execution</id>
+						<phase>test</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<projectName>Cloudfy</projectName>
+							<outputDirectory>${project.build.directory}/reports/${CurrentYear}/${CurrentMonth}/${CurrentDate}/${CurrentTime}</outputDirectory>
+							<cucumberOutput>${project.build.directory}/cucumber-report/cucumber.json</cucumberOutput>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.5</version>
+    <scope>test</scope>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.26</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+	</dependencies>
+</project>

@@ -1,0 +1,149 @@
+2022-04-05 12:57:33 INFO  AttachHooks:29 - Initializing setup
+2022-04-05 12:57:35 INFO  AttachHooks:37 - Running Scenario:Verify Checkout functionality is working (with Extended Delivery Charges on Basket- Choice - Once)
+2022-04-05 12:57:39 INFO  AddToCartPage:52 - Business Manager signin page opened
+2022-04-05 12:57:40 INFO  AddToCartPage:54 - Entered Username
+2022-04-05 12:57:40 INFO  AddToCartPage:56 - Entered Password
+2022-04-05 12:57:40 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //button[text()='Sign In']] for timeout [10000] seconds
+2022-04-05 12:57:40 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //button[text()='Sign In']] for timeout [10000] seconds
+2022-04-05 12:57:40 INFO  CommonHelper:196 - Clicking element By.xpath: //button[text()='Sign In']
+2022-04-05 12:57:43 INFO  CommonHelper:198 - Clicked element By.xpath: //button[text()='Sign In']
+2022-04-05 12:57:43 INFO  AddToCartPage:58 - Clicked on SignIn Button
+2022-04-05 12:57:43 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[contains(text(),'Site Setup')]] for timeout [10000] seconds
+2022-04-05 12:57:43 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[contains(text(),'Site Setup')]] for timeout [10000] seconds
+2022-04-05 12:57:43 INFO  CommonHelper:196 - Clicking element By.xpath: //span[contains(text(),'Site Setup')]
+2022-04-05 12:57:43 INFO  CommonHelper:198 - Clicked element By.xpath: //span[contains(text(),'Site Setup')]
+2022-04-05 12:57:43 INFO  AddToCartPage:64 - Clicked on Menu
+2022-04-05 12:57:43 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //a[contains(text(),'Site Settings')]] for timeout [10000] seconds
+2022-04-05 12:57:43 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //a[contains(text(),'Site Settings')]] for timeout [10000] seconds
+2022-04-05 12:57:43 INFO  CommonHelper:196 - Clicking element By.xpath: //a[contains(text(),'Site Settings')]
+2022-04-05 12:57:49 INFO  CommonHelper:198 - Clicked element By.xpath: //a[contains(text(),'Site Settings')]
+2022-04-05 12:57:49 INFO  AddToCartPage:70 - Clicked on SubMenu
+2022-04-05 12:57:49 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //a[contains(text(),'Transactional Settings')]] for timeout [10000] seconds
+2022-04-05 12:57:49 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //a[contains(text(),'Transactional Settings')]] for timeout [10000] seconds
+2022-04-05 12:57:49 INFO  CommonHelper:196 - Clicking element By.xpath: //a[contains(text(),'Transactional Settings')]
+2022-04-05 12:57:50 INFO  CommonHelper:198 - Clicked element By.xpath: //a[contains(text(),'Transactional Settings')]
+2022-04-05 12:57:50 INFO  VATPage:66 - Clicked on Site Setting Tab
+2022-04-05 12:57:50 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //a[contains(text(),'Order Settings')]] for timeout [10000] seconds
+2022-04-05 12:57:50 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //a[contains(text(),'Order Settings')]] for timeout [10000] seconds
+2022-04-05 12:57:50 INFO  CommonHelper:196 - Clicking element By.xpath: //a[contains(text(),'Order Settings')]
+2022-04-05 12:57:50 INFO  CommonHelper:198 - Clicked element By.xpath: //a[contains(text(),'Order Settings')]
+2022-04-05 12:57:50 INFO  VATPage:73 - Clicked on Transactional Setting Section
+2022-04-05 12:57:50 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@id='select2-DeliveryType-container']] for timeout [10000] seconds
+2022-04-05 12:57:50 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@id='select2-DeliveryType-container']] for timeout [10000] seconds
+2022-04-05 12:57:50 INFO  CommonHelper:196 - Clicking element By.xpath: //span[@id='select2-DeliveryType-container']
+2022-04-05 12:57:50 INFO  CommonHelper:198 - Clicked element By.xpath: //span[@id='select2-DeliveryType-container']
+2022-04-05 12:57:50 INFO  VATPage:107 - Click Calculate VAT From Option Dropdown
+2022-04-05 12:57:50 INFO  ConfigManager:66 - fetching medium sleep wait
+2022-04-05 12:57:50 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']] for timeout [3000] seconds
+2022-04-05 12:57:51 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']] for timeout [3000] seconds
+2022-04-05 12:57:51 INFO  CommonHelper:203 - Entering [Extended Delivery] to textbox By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']
+2022-04-05 12:57:51 INFO  CommonHelper:206 - Entered [Extended Delivery] to textbox By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']
+2022-04-05 12:57:51 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //li[text()='Extended Delivery']] for timeout [10000] seconds
+2022-04-05 12:57:51 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //li[text()='Extended Delivery']] for timeout [10000] seconds
+2022-04-05 12:57:51 INFO  CommonHelper:196 - Clicking element By.xpath: //li[text()='Extended Delivery']
+2022-04-05 12:57:51 INFO  CommonHelper:198 - Clicked element By.xpath: //li[text()='Extended Delivery']
+2022-04-05 12:57:51 INFO  VATPage:115 - Selected Delivery Charges Option Extended Delivery
+2022-04-05 12:57:51 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@id='select2-DeliveryBreakdownLevel-container']] for timeout [10000] seconds
+2022-04-05 12:57:51 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@id='select2-DeliveryBreakdownLevel-container']] for timeout [10000] seconds
+2022-04-05 12:57:51 INFO  CommonHelper:196 - Clicking element By.xpath: //span[@id='select2-DeliveryBreakdownLevel-container']
+2022-04-05 12:57:51 INFO  CommonHelper:198 - Clicked element By.xpath: //span[@id='select2-DeliveryBreakdownLevel-container']
+2022-04-05 12:57:51 INFO  DeliveryChargesPage:75 - Click Delivery Breakdown Level Dropdown
+2022-04-05 12:57:51 INFO  ConfigManager:66 - fetching medium sleep wait
+2022-04-05 12:57:51 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']] for timeout [3000] seconds
+2022-04-05 12:57:52 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']] for timeout [3000] seconds
+2022-04-05 12:57:52 INFO  CommonHelper:203 - Entering [Detailed] to textbox By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']
+2022-04-05 12:57:52 INFO  CommonHelper:206 - Entered [Detailed] to textbox By.xpath: //span[@class='select2-search select2-search--dropdown']/input[@role='textbox']
+2022-04-05 12:57:52 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //li[text()='Detailed']] for timeout [10000] seconds
+2022-04-05 12:57:52 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //li[text()='Detailed']] for timeout [10000] seconds
+2022-04-05 12:57:52 INFO  CommonHelper:196 - Clicking element By.xpath: //li[text()='Detailed']
+2022-04-05 12:57:52 INFO  CommonHelper:198 - Clicked element By.xpath: //li[text()='Detailed']
+2022-04-05 12:57:52 INFO  DeliveryChargesPage:83 - Selected Delivery Breakdown Level Detailed
+2022-04-05 12:57:52 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //button[text()='Submit']] for timeout [10000] seconds
+2022-04-05 12:57:52 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //button[text()='Submit']] for timeout [10000] seconds
+2022-04-05 12:57:52 INFO  CommonHelper:196 - Clicking element By.xpath: //button[text()='Submit']
+2022-04-05 12:57:54 INFO  CommonHelper:198 - Clicked element By.xpath: //button[text()='Submit']
+2022-04-05 12:57:54 INFO  VATPage:120 - Clicked on Submit Button
+2022-04-05 12:57:54 INFO  ConfigManager:26 - fetching explicit wait from configuration file
+2022-04-05 12:57:54 INFO  ConfigManager:31 - fetching explicit wait from configuration file
+2022-04-05 12:58:11 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: (//a[@class='loginLinkRet'])[2]] for timeout [10000] seconds
+2022-04-05 12:58:11 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: (//a[@class='loginLinkRet'])[2]] for timeout [10000] seconds
+2022-04-05 12:58:11 INFO  CommonHelper:196 - Clicking element By.xpath: (//a[@class='loginLinkRet'])[2]
+2022-04-05 12:58:13 INFO  CommonHelper:198 - Clicked element By.xpath: (//a[@class='loginLinkRet'])[2]
+2022-04-05 12:58:13 INFO  SignInPage:36 - Clicked on Signin/login
+2022-04-05 12:58:13 INFO  ConfigManager:66 - fetching medium sleep wait
+2022-04-05 12:58:13 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //input[@id='UserName']] for timeout [3000] seconds
+2022-04-05 12:58:13 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //input[@id='UserName']] for timeout [3000] seconds
+2022-04-05 12:58:13 INFO  CommonHelper:203 - Entering [priyanka.tripathi@williamscommerce.com] to textbox By.xpath: //input[@id='UserName']
+2022-04-05 12:58:13 INFO  CommonHelper:206 - Entered [priyanka.tripathi@williamscommerce.com] to textbox By.xpath: //input[@id='UserName']
+2022-04-05 12:58:13 INFO  ConfigManager:66 - fetching medium sleep wait
+2022-04-05 12:58:13 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //input[@id='Password']] for timeout [3000] seconds
+2022-04-05 12:58:13 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //input[@id='Password']] for timeout [3000] seconds
+2022-04-05 12:58:13 INFO  CommonHelper:203 - Entering [Priyanka@123] to textbox By.xpath: //input[@id='Password']
+2022-04-05 12:58:13 INFO  CommonHelper:206 - Entered [Priyanka@123] to textbox By.xpath: //input[@id='Password']
+2022-04-05 12:58:13 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //button[text()='login to your account']] for timeout [10000] seconds
+2022-04-05 12:58:13 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //button[text()='login to your account']] for timeout [10000] seconds
+2022-04-05 12:58:13 INFO  CommonHelper:196 - Clicking element By.xpath: //button[text()='login to your account']
+2022-04-05 12:58:17 INFO  CommonHelper:198 - Clicked element By.xpath: //button[text()='login to your account']
+2022-04-05 12:58:17 INFO  SignInPage:41 - Clicked on Login To Your Account button
+2022-04-05 12:58:17 INFO  ConfigManager:41 - fetching small wait from configuration file
+2022-04-05 12:58:17 INFO  CommonHelper:231 - Element displayed By.xpath: //div[@class='myAccountDescription']/child::h1/button[text()='My Account']
+2022-04-05 12:58:18 INFO  AddToCartPage:96 - Hover Over Category Menu done
+2022-04-05 12:58:18 INFO  AddToCartPage:101 - Move to Sub Category (//div[starts-with(@class,'drpdwn')]/ul/li/a/h2[text()='Mobiles'])[2]
+2022-04-05 12:58:18 INFO  AddToCartPage:103 - Click on Sub Category
+2022-04-05 12:58:18 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: (//div[starts-with(@class,'drpdwn')]/ul/li/a/h2[text()='Mobiles'])[2]] for timeout [10000] seconds
+2022-04-05 12:58:18 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: (//div[starts-with(@class,'drpdwn')]/ul/li/a/h2[text()='Mobiles'])[2]] for timeout [10000] seconds
+2022-04-05 12:58:18 INFO  CommonHelper:196 - Clicking element By.xpath: (//div[starts-with(@class,'drpdwn')]/ul/li/a/h2[text()='Mobiles'])[2]
+2022-04-05 12:58:20 INFO  CommonHelper:198 - Clicked element By.xpath: (//div[starts-with(@class,'drpdwn')]/ul/li/a/h2[text()='Mobiles'])[2]
+2022-04-05 12:58:20 INFO  AddToCartPage:105 - Clicked on Sub Category
+2022-04-05 12:58:20 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //a[contains(text(),'OPPO A74 5G (Fantastic Purple, 6GB RAM, 128GB Stor')]] for timeout [10000] seconds
+2022-04-05 12:58:20 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //a[contains(text(),'OPPO A74 5G (Fantastic Purple, 6GB RAM, 128GB Stor')]] for timeout [10000] seconds
+2022-04-05 12:58:20 INFO  CommonHelper:196 - Clicking element By.xpath: //a[contains(text(),'OPPO A74 5G (Fantastic Purple, 6GB RAM, 128GB Stor')]
+2022-04-05 12:58:23 INFO  CommonHelper:198 - Clicked element By.xpath: //a[contains(text(),'OPPO A74 5G (Fantastic Purple, 6GB RAM, 128GB Stor')]
+2022-04-05 12:58:23 INFO  AddToCartPage:121 - Clicked on Product Name in Product List
+2022-04-05 12:58:23 INFO  ConfigManager:41 - fetching small wait from configuration file
+2022-04-05 12:58:23 INFO  CommonHelper:231 - Element displayed By.xpath: //div[@id='maincontents2']/div[1]/h1
+2022-04-05 12:58:23 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //button[text()='Add to Basket']] for timeout [10000] seconds
+2022-04-05 12:58:23 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //button[text()='Add to Basket']] for timeout [10000] seconds
+2022-04-05 12:58:23 INFO  CommonHelper:196 - Clicking element By.xpath: //button[text()='Add to Basket']
+2022-04-05 12:58:23 INFO  CommonHelper:198 - Clicked element By.xpath: //button[text()='Add to Basket']
+2022-04-05 12:58:23 INFO  AddToCartPage:136 - clicked on Add To Basket
+2022-04-05 12:58:23 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@id='lblbasketTotal']] for timeout [10000] seconds
+2022-04-05 12:58:23 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@id='lblbasketTotal']] for timeout [10000] seconds
+2022-04-05 12:58:23 INFO  CommonHelper:196 - Clicking element By.xpath: //span[@id='lblbasketTotal']
+2022-04-05 12:58:23 INFO  CommonHelper:198 - Clicked element By.xpath: //span[@id='lblbasketTotal']
+2022-04-05 12:58:23 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //a[text()='View Basket']] for timeout [10000] seconds
+2022-04-05 12:58:23 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //a[text()='View Basket']] for timeout [10000] seconds
+2022-04-05 12:58:23 INFO  CommonHelper:196 - Clicking element By.xpath: //a[text()='View Basket']
+2022-04-05 12:58:25 INFO  CommonHelper:198 - Clicked element By.xpath: //a[text()='View Basket']
+2022-04-05 12:58:25 INFO  AddToCartPage:50 - Clicked on View Basket Button
+2022-04-05 12:58:25 INFO  ConfigManager:41 - fetching small wait from configuration file
+2022-04-05 12:58:25 INFO  CommonHelper:231 - Element displayed By.xpath: //td[contains(text(),'OPPO A74 5G (Fantastic Purple, 6GB RAM, 128GB Stor')]
+2022-04-05 12:58:25 INFO  AddToCartPage:55 - Product is displayed in Basket
+2022-04-05 12:58:25 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //button[text()='Proceed to checkout >']] for timeout [10000] seconds
+2022-04-05 12:58:26 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //button[text()='Proceed to checkout >']] for timeout [10000] seconds
+2022-04-05 12:58:26 INFO  CommonHelper:196 - Clicking element By.xpath: //button[text()='Proceed to checkout >']
+2022-04-05 12:58:30 INFO  CommonHelper:198 - Clicked element By.xpath: //button[text()='Proceed to checkout >']
+2022-04-05 12:58:30 INFO  AddToCartPage:74 - Clicked on Proceed To Checkout Button
+2022-04-05 12:58:30 INFO  DeliveryChargesPage:67 - Delivery Type Choice selected BasketChoice
+2022-04-05 12:58:30 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@class='plus']] for timeout [10000] seconds
+2022-04-05 12:58:30 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@class='plus']] for timeout [10000] seconds
+2022-04-05 12:58:30 INFO  CommonHelper:196 - Clicking element By.xpath: //span[@class='plus']
+2022-04-05 12:58:30 INFO  CommonHelper:198 - Clicked element By.xpath: //span[@class='plus']
+2022-04-05 12:58:30 INFO  DeliveryChargesPage:70 - Show Detailed Delivery
+2022-04-05 12:58:30 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //span[@class='plus']] for timeout [10000] seconds
+2022-04-05 12:58:31 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //span[@class='plus']] for timeout [10000] seconds
+2022-04-05 12:58:31 INFO  CommonHelper:196 - Clicking element By.xpath: //span[@class='plus']
+2022-04-05 12:58:31 INFO  CommonHelper:198 - Clicked element By.xpath: //span[@class='plus']
+2022-04-05 12:58:31 INFO  DeliveryChargesPage:45 - Show Detailed Delivery
+2022-04-05 12:58:31 INFO  DeliveryChargesPage:48 - //span[normalize-space(text())='BasketChoice']/parent::td/following-sibling::td
+2022-04-05 12:58:31 INFO  DeliveryChargesPage:51 - Fetched amount as string GBP 1.00
+2022-04-05 12:58:31 INFO  DeliveryChargesPage:53 - Fetched amount as string only numbers 1.00
+2022-04-05 12:58:31 INFO  DeliveryChargesPage:56 - Fetched Amount 1.0
+2022-04-05 12:58:31 INFO  DeliveryChargesPage:60 - Delivery Amount on Checkout page matched
+2022-04-05 12:58:31 INFO  WaitHelper:64 - Waiting for element to be clickable element: [By.xpath: //*[text()='Place Order Now']] for timeout [10000] seconds
+2022-04-05 12:58:31 INFO  WaitHelper:67 - Wait completed and found clickable element: [By.xpath: //*[text()='Place Order Now']] for timeout [10000] seconds
+2022-04-05 12:58:31 INFO  CommonHelper:196 - Clicking element By.xpath: //*[text()='Place Order Now']
+2022-04-05 12:58:34 INFO  CommonHelper:198 - Clicked element By.xpath: //*[text()='Place Order Now']
+2022-04-05 12:58:34 INFO  ConfigManager:41 - fetching small wait from configuration file
+2022-04-05 12:58:34 INFO  CommonHelper:231 - Element displayed By.xpath: //*[text()='Thank you for your order']
+2022-04-05 12:58:34 INFO  AttachHooks:46 - after tear down
